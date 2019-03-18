@@ -1,0 +1,56 @@
+baseurl         = ""
+theme           = "casper-two"
+languageCode    = "en-US"
+disqusShortname = ""
+paginate        = 6
+#SectionPagesMenu = "main"
+
+[params]
+  title       = "HEC Paris presents: Tech, Data & Innovation"
+
+  subtitle    = "The more data you know, the more you dare."
+
+  cover       = "cover.jpeg"
+  description = "Here is a description of your site."
+  metaDescription = ""
+  googleAnalytics = ""
+  customCSS = []
+  RSSLink = ""
+
+  twitterName = "faketryghost"
+  fbName = "fakeghost"
+  githubName = "arabangdingalo"
+
+  logo = ""
+  orgName = "EM"
+  orgWebsite = "https://www.telematika.org"
+  orgDescription = "Here is a description placeholder for your org"
+
+  author = "EM"
+  authorAvatar = "img/ghost-icon.png"
+  authorLocation = "Bandung, ID"
+  authorWebsite = "https://eueung.github.io"
+  authorDescription = "Describe yourself.."
+
+  pageNotFoundTitle = "404 - Page not found"
+
+  #casper or caspertwo
+  singleViewStyle = "casper"
+
+[permalinks]
+  post = "/:slug/"
+
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 200
+
+[[menu.main]]
+  name = "Resources"
+  url = "/tags/resources/"
+  weight = 100
+
+[[menu.main]]
+  name = "Course Info"
+  url = "/tags/course/"
+  weight = 99
